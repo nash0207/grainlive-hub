@@ -28,8 +28,8 @@ const Footer = () => (
           <h4 className="font-heading font-semibold text-grain-cream mb-4">Portals</h4>
           <div className="flex flex-col gap-2 text-sm">
             <Link to="/login" className="hover:text-grain-gold transition-colors">Buyer Login</Link>
-            <Link to="/driver" className="hover:text-grain-gold transition-colors">Driver Portal</Link>
-            <Link to="/admin" className="hover:text-grain-gold transition-colors">Owner Dashboard</Link>
+            <Link to="/driver/login" className="hover:text-grain-gold transition-colors">Driver Portal</Link>
+            <Link to="/owner/login" className="hover:text-grain-gold transition-colors">Owner Dashboard</Link>
           </div>
         </div>
         <div>
