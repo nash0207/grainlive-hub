@@ -35,9 +35,9 @@ const Footer = () => (
         <div>
           <h4 className="font-heading font-semibold text-grain-cream mb-4">Contact</h4>
           <div className="flex flex-col gap-3 text-sm">
-            <div className="flex items-center gap-2"><MapPin className="w-4 h-4 text-grain-gold" /> Manila, Philippines</div>
-            <div className="flex items-center gap-2"><Phone className="w-4 h-4 text-grain-gold" /> +63 917 123 4567</div>
-            <div className="flex items-center gap-2"><Mail className="w-4 h-4 text-grain-gold" /> hello@graindispatch.ph</div>
+            <div className="flex items-center gap-2"><MapPin className="w-4 h-4 text-grain-gold" /> Batangas, Philippines</div>
+            <div className="flex items-center gap-2"><Phone className="w-4 h-4 text-grain-gold" /> +63 963 388 4158</div>
+            <div className="flex items-center gap-2"><Mail className="w-4 h-4 text-grain-gold" /> graindispatch@gmail.com</div>
           </div>
         </div>
       </div>

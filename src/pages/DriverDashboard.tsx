@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import {
   Wheat, Package, Truck, CheckCircle2, MapPin, ScanLine,
-  LogOut, Phone, DollarSign, Clock
+  LogOut, Phone, Banknote, Clock
 } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 
@@ -110,7 +110,7 @@ const DriverDashboard = () => {
             <p className="text-xs text-muted-foreground">Delivered</p>
           </div>
           <div className="rounded-xl bg-card border border-border p-4 text-center">
-            <DollarSign className="w-5 h-5 text-primary mx-auto mb-1" />
+            <Banknote className="w-5 h-5 text-primary mx-auto mb-1" />
             <p className="text-xl font-bold text-foreground">₱{todayEarnings.toLocaleString()}</p>
             <p className="text-xs text-muted-foreground">Collected</p>
           </div>
